@@ -19,3 +19,4 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer
 
 keymap.set("n", "<Tab>", "<cmd>bn!<CR>", { desc = "Go to next buffer" }) -- go to next buffer
 keymap.set("n", "<S-Tab>", "<cmd>bp!<CR>", { desc = "Go to previous buffer" }) -- go to previous buffer
+keymap.set("n", "<leader>bd", "<cmd>bn! | bd! #<CR>", { desc = "Close current buffer "}) -- close current buffer
